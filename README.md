@@ -28,16 +28,16 @@ Include un menu dinamico, gestione allergeni conforme alla normativa EU 1169/200
 
 ## 📂 Struttura del progetto
 
-index.html
-pizzas.html
-focacce.html
-kebab.html
-calzone.html
-Teglia.html
-drinks.html
-style.css
-script.js
-thunder.mp3
+- **index.html**
+- **pizzas.html**
+- **focacce.html**
+- **kebab.html**
+- **calzone.html**
+- **Teglia.html**
+- **drinks.html**
+- **style.css**
+- **script.js**
+- **thunder.mp3**
 
 ---
 
