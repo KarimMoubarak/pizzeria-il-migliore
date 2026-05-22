@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Menù Pizze – Pizzeria IL Migliore</title>
+  <link rel="stylesheet" href="style.css">
+<!-- Favicon -->
+<link rel="icon" href="icons/favicon.ico" type="image/x-icon">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+
+<!-- Apple Touch Icon -->
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+
+<!-- Android Chrome Icons -->
+<link rel="icon" type="image/png" sizes="192x192" href="icons/android-chrome-192x192.png">
+<link rel="icon" type="image/png" sizes="512x512" href="icons/android-chrome-512x512.png">
+
+<!-- Web Manifest -->
+<link rel="manifest" href="icons/site.webmanifest">
+</head>
+<body id="pizzasPage">
+<div class="season-bg"></div>
+<div class="thunder-flash"></div>
+<audio id="spring-sound" src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_9e0b3b3e6e.mp3" preload="auto" loop></audio>
+<audio id="summer-sound" src="https://cdn.pixabay.com/download/audio/2021/09/01/audio_3c2f1b8e0e.mp3" preload="auto" loop></audio>
+<audio id="autumn-sound" src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_7e3c3b3e6e.mp3" preload="auto" loop></audio>
+<audio id="rain-sound" src="https://cdn.pixabay.com/download/audio/2021/08/04/audio_1c2f1b8e0e.mp3" preload="auto" loop></audio>
+<audio id="snow-sound" src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_5e3c3b3e6e.mp3" preload="auto" loop></audio>
+  <header>
+    <h1>Menù Pizza</h1>
+    <nav class="nav-cards">
+      <a href="index.html"      class="card-button">Home</a>
+      <a href="pizzas.html"     class="card-button active">Pizze</a>
+      <a href="focacce.html"    class="card-button">Focacce</a>
+      <a href="kebab.html"      class="card-button">Kebab E Altri Servizi</a>
+      <a href="Teglia.html"     class="card-button">Teglie</a>
+      <a href="calzone.html"     class="card-button">Calzone</a>
+      <a href="drinks.html"     class="card-button">Bibite</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="items-grid">
+      <div class="menu-card">
+        <h3>Affumicata</h3>
+        <p>pomodoro, mozzarella, pancetta, scamorza, pomodorini</p>
+        <p class="allergens">Allergeni: 7, 11</p>
+        <p class="price">€ 5,00</p>
+      </div>
+      <div class="menu-card">
+        <h3>Al Volo</h3>
+        <p>pomodoro, mozzarella, speck, radicchio, scamorza</p>
+        <p class="allergens">Allergeni: 7, 11</p>
+        <p class="price">€ 5,00</p>
+      </div>
+      <div class="menu-card">
+        <h3>Americana</h3>
+        <p>pomodoro, mozzarella, patatine, wurstel</p>
+        <p class="allergens">Allergeni: 7, 11</p>
+        <p class="price">€ 5,00</p>
+      </div>
+      <div class="menu-card">
+        <h3>Americana + Prosciutto</h3>
+        <p>pomodoro, mozzarella, patatine, wurstel, prosciutto cotto</p>
+        <p class="allergens">Allergeni: 7, 11</p>
+        <p class="price">€ 5,00</p>
+      </div>
+      <div class="menu-card">
+        <h3>Amici</h3>
+        <p>pomodoro, mozzarella, brie, crudo, rucola</p>
+        <p class="allergens">Allergeni: 7, 11</p>
+        <p class="price">€ 5,00</p>
+      </div>
+      <div class="menu-card">
+        <h3>Barbie</h3>
+        <p>pomodoro, melanzane, radicchio, rucola</p>
+        <p class="allergens">Allergeni: 7, 11</p>
+        <p class="price">€ 5,00</p>
+      </div>
+      <div class="menu-card">
+        <h3>Bella</h3>
+        <p>pomodoro, mozzarella, zucchine, pomodorini</p>
+        <p class="allergens">Allergeni: 7, 11</p>
+        <p class="price">€ 5,00</p>
+      </div>
+      <div class="menu-card">
+        <h3>Bianca Neve</h3>
+        <p>mozzarella, ricotta</p>
+        <p class="allergens">Allergeni: 7, 11</p>
+        <p class="price">€ 5,00</p>
+      </div>
+      <div class="menu-card">
+        <h3>Bianco Rosso Verdone</h3>
+        <p>pomodoro, mozzarella, mozzarella di bufala, pomodorini, basilico</p>
+        <p class="allergens">Allergeni: 7, 11</p>
+        <p class="price">€ 5,00</p>
+      </div>
+      <div class="menu-card">
+        <h3>Bismarck</h3>
+        <p>pomodoro, mozzarella, prosciutto cotto, uovo, grana</p>
+        <p class="allergens">Allergeni: 7, 3, 11</p>
+        <p class="price">€ 5,00</p>
+      </div>
+      <div class="menu-card">
+        <h3>Boscaiola</h3>
+        <p>pomodoro, mozzarella, bresaola, rucola, grana</p>
+        <p class="allergens">Allergeni: 7, 11</p>
+        <p class="price">€ 5,00</p>
+      </div>
+      <div class="menu-card">
+        <h3>Braccio di Ferro</h3>
+        <p>pomodoro, mozzarella, spinaci, ricotta</p>
+        <p class="allergens">Allergeni: 7, 11</p>
+        <p class="price">€ 5,00</p>
+      </div>
+      <div class="menu-card">
+        <h3>Bresaola</h3>
+        <p>pomodoro, mozzarella, bresaola</p>
+        <p class="allergens">Allergeni: 7, 11</p>
+        <p class="price">€ 5,00</p>
+      </div>
+      <div class="menu-card">
+        <h3>Bufala</h3>
+        <p>pomodoro, mozzarella di bufala</p>
+        <p class="allergens">Allergeni: 7, 11</p>
+        <p class="price">€ 5,00</p>
+      </div>
+      <div class="menu-card">
+        <h3>Capricciosa</h3>
+        <p>pomodoro, mozzarella, prosciutto cotto, carciofi, funghi, olive, uovo</p>
+        <p class="allergens">Allergeni: 12, 7, 4, 11</p>
+        <p class="price">€ 5,00</p>
+      </div>
+      <div class="menu-card">
+        <h3>Cesano</h3>
+        <p>pomodoro, mozzarella, zucchine, pomodorini</p>
+        <p class="allergens">Allergeni: 7, 11</p>
+        <p class="price">€ 5,00</p>
+      </div>
+      <div class="menu-card">
+        <h3>Crudo</h3>
+        <p>pomodoro, mozzarella, prosciutto crudo</p>
+        <p class="allergens">Allergeni: 7, 11</p>
+        <p class="price">€ 5,00</p>
+      </div>
+      <div class="menu-card">
+        <h3>Diavola</h3>
+        <p>pomodoro, mozzarella, salame piccante</p>
+        <p class="allergens">Allergeni: 7, 11</p>
+        <p class="price">€ 5,00</p>
+      </div>
+      <div class="menu-card">
+        <h3>Ferrari</h3>
+        <p>pomodoro, mozzarella, prosciutto cotto, funghi</p>
+        <p class="allergens">Allergeni: 7, 11</p>
+        <p class="price">€ 5,00</p>
+      </div>
+      <div class="menu-card">
+        <h3>Frutti di Mare</h3>
+        <p>pomodoro, mozzarella, frutti di mare</p>
+        <p class="allergens">Allergeni: 2, 11</p>
+        <p class="price">€ 5,00</p>
+      </div>
+      <div class="menu-card">
+        <h3>Gamberetti</h3>
+        <p>pomodoro, mozzarella, gamberetti</p>
+        <p class="allergens">Allergeni: 7, 2, 11</p>
+        <p class="price">€ 5,00</p>
+      </div>
+      <div class="menu-card">
+        <h3>Italia</h3>
+        <p>pomodoro, mozzarella di bufala, salame piccante, rucola</p>
+        <p class="allergens">Allergeni: 7, 11</p>
+        <p class="price">€ 5,00</p>
+      </div>
+      <div class="menu-card">
+        <h3>Kebab</h3>
+        <p>pomodoro, mozzarella, carne kebab, insalata verde, pomodorini, cipolla, peperoncino, salsa bianca</p>
+        <p class="allergens">Allergeni: 10, 9, 7, 6, 3, 11</p>
+        <p class="price">€ 8,00</p>
+      </div>
+      <div class="menu-card">
+        <h3>Mari e Monti</h3>
+        <p>pomodoro, mozzarella, salmone, gamberetti, rucola</p>
+        <p class="allergens">Allergeni: 12, 7, 2, 4, 11</p>
+        <p class="price">€ 5,00</p>
+      </div>
+      <div class="menu-card">
+        <h3>Margherita</h3>
+        <p>pomodoro, mozzarella</p>
+        <p class="allergens">Allergeni: 7, 11</p>
+        <p class="price">€ 5,00</p>
+      </div>
+      <div class="menu-card">
+        <h3>Marinara</h3>
+        <p>pomodoro, aglio, olio, origano</p>
+        <p class="allergens">Allergeni: 11</p>
+        <p class="price">€ 5,00</p>
+      </div>
+      <div class="menu-card">
+        <h3>Miglio Verde</h3>
+        <p>pomodoro, mozzarella, rucola, pomodorini</p>
+        <p class="allergens">Allergeni: 7, 11</p>
+        <p class="price">€ 5,00</p>
+      </div>
+      <div class="menu-card">
+        <h3>Napoletana</h3>
+        <p>pomodoro, mozzarella, acciughe, olive, origano</p>
+        <p class="allergens">Allergeni: 7, 11</p>
+        <p class="price">€ 5,00</p>
+      </div>
+      <div class="menu-card">
+        <h3>Patatosa</h3>
+        <p>pomodoro, mozzarella, patatine</p>
+        <p class="allergens">Allergeni: 7, 11</p>
+        <p class="price">€ 5,00</p>
+      </div>
+      <div class="menu-card">
+        <h3>Pepperoni</h3>
+        <p>pomodoro, mozzarella, peperoni</p>
+        <p class="allergens">Allergeni: 7, 11</p>
+        <p class="price">€ 5,00</p>
+      </div>
+      <div class="menu-card">
+        <h3>Porky’s</h3>
+        <p>pomodoro, mozzarella, prosciutto cotto, salame piccante, porcini</p>
+        <p class="allergens">Allergeni: 12, 7, 4, 11</p>
+        <p class="price">€ 5,00</p>
+      </div>
+      <div class="menu-card">
+        <h3>Prosciutto</h3>
+        <p>pomodoro, mozzarella, prosciutto cotto</p>
+        <p class="allergens">Allergeni: 7, 11</p>
+        <p class="price">€ 5,00</p>
+      </div>
+      <div class="menu-card">
+        <h3>Prosciutto e Funghi</h3>
+        <p>pomodoro, mozzarella, prosciutto cotto, funghi</p>
+        <p class="allergens">Allergeni: 12, 7, 11</p>
+        <p class="price">€ 5,00</p>
+      </div>
+      <div class="menu-card">
+        <h3>Prosciutto e Scamorza</h3>
+        <p>pomodoro, mozzarella, prosciutto cotto, scamorza</p>
+        <p class="allergens">Allergeni: 7, 11</p>
+        <p class="price">€ 5,00</p>
+      </div>
+      <div class="menu-card">
+        <h3>Prosciutto e Panna</h3>
+        <p>pomodoro, mozzarella, prosciutto cotto, panna</p>
+        <p class="allergens">Allergeni: 7, 11</p>
+        <p class="price">€ 5,00</p>
+      </div>
+      <div class="menu-card">
+        <h3>Prosciutto e Ricotta</h3>
+        <p>pomodoro, mozzarella, prosciutto cotto, ricotta</p>
+        <p class="allergens">Allergeni: 7, 11</p>
+        <p class="price">€ 5,00</p>
+      </div>
+      <div class="menu-card">
+        <h3>Pugliese</h3>
+        <p>pomodoro, mozzarella, cipolle, origano</p>
+        <p class="allergens">Allergeni: 7, 11</p>
+        <p class="price">€ 5,00</p>
+      </div>
+      <div class="menu-card">
+        <h3>Quattro Formaggi</h3>
+        <p>pomodoro, mozzarella, zola, scamorza, grana</p>
+        <p class="allergens">Allergeni: 7, 11</p>
+        <p class="price">€ 5,00</p>
+      </div>
+      <div class="menu-card">
+        <h3>Quattro Stagioni</h3>
+        <p>pomodoro, mozzarella, prosciutto cotto, funghi, carciofi, olive</p>
+        <p class="allergens">Allergeni: 7, 11, 12</p>
+        <p class="price">€ 5,00</p>
+      </div>
+      <div class="menu-card">
+  <h3>Quattro Salumi</h3>
+  <p>pomodoro, mozzarella, prosciutto cotto, salame piccante, wurstel, pancetta</p>
+  <p class="allergens">Allergeni: 7, 1</p>
+  <p class="price">€ 5,00</p>
+</div>
+      <div class="menu-card">
+  <h3>Robin Hood</h3>
+  <p>pomodoro, mozzarella, zucchine, gamberetti</p>
+  <p class="allergens">Allergeni: 12, 7, 2, 1</p>
+  <p class="price">€ 5,00</p>
+</div>
+
+<div class="menu-card">
+  <h3>Romana</h3>
+  <p>pomodoro, mozzarella, acciughe, olive, origano, capperi</p>
+  <p class="allergens">Allergeni: 12, 7, 4, 1</p>
+  <p class="price">€ 5,00</p>
+</div>
+
+<div class="menu-card">
+  <h3>Rustica</h3>
+  <p>pomodoro, mozzarella, salsiccia, porcini, zola</p>
+  <p class="allergens">Allergeni: 7, 4, 1</p>
+  <p class="price">€ 5,00</p>
+</div>
+
+<div class="menu-card">
+  <h3>Salsiccia</h3>
+  <p>pomodoro, mozzarella, salsiccia</p>
+  <p class="allergens">Allergeni: 7, 1</p>
+  <p class="price">€ 5,00</p>
+</div>
+
+<div class="menu-card">
+  <h3>Siciliana</h3>
+  <p>pomodoro, mozzarella, acciughe, olive, origano</p>
+  <p class="allergens">Allergeni: 7, 4, 1</p>
+  <p class="price">€ 5,00</p>
+</div>
+
+<div class="menu-card">
+  <h3>Speck</h3>
+  <p>pomodoro, mozzarella, speck</p>
+  <p class="allergens">Allergeni: 7, 1</p>
+  <p class="price">€ 5,00</p>
+</div>
+
+<div class="menu-card">
+  <h3>Speck e Brie</h3>
+  <p>pomodoro, mozzarella, speck, brie</p>
+  <p class="allergens">Allergeni: 7, 1</p>
+  <p class="price">€ 5,00</p>
+</div>
+
+<div class="menu-card">
+  <h3>Speck e Scamorza</h3>
+  <p>pomodoro, mozzarella, speck, scamorza</p>
+  <p class="allergens">Allergeni: 7, 1</p>
+  <p class="price">€ 5,00</p>
+</div>
+
+<div class="menu-card">
+  <h3>Speck e Zola</h3>
+  <p>pomodoro, mozzarella, speck, zola</p>
+  <p class="allergens">Allergeni: 7, 1</p>
+  <p class="price">€ 5,00</p>
+</div>
+
+<div class="menu-card">
+  <h3>Tonno</h3>
+  <p>pomodoro, mozzarella, tonno</p>
+  <p class="allergens">Allergeni: 7, 4, 1</p>
+  <p class="price">€ 5,00</p>
+</div>
+
+<div class="menu-card">
+  <h3>Tonno e Cipolla</h3>
+  <p>pomodoro, mozzarella, tonno, cipolla</p>
+  <p class="allergens">Allergeni: 7, 4, 1</p>
+  <p class="price">€ 5,00</p>
+</div>
+
+<div class="menu-card">
+  <h3>Tonno e Peperoni</h3>
+  <p>pomodoro, mozzarella, tonno, peperoni</p>
+  <p class="allergens">Allergeni: 7, 4, 1</p>
+  <p class="price">€ 5,00</p>
+</div>
+
+<div class="menu-card">
+  <h3>Tonno e Salame Piccante</h3>
+  <p>pomodoro, mozzarella, tonno, salame piccante</p>
+  <p class="allergens">Allergeni: 7, 4, 1</p>
+  <p class="price">€ 5,00</p>
+</div>
+
+<div class="menu-card">
+  <h3>Valtellina</h3>
+  <p>pomodoro, mozzarella, porcini, bresaola</p>
+  <p class="allergens">Allergeni: 7, 3, 1</p>
+  <p class="price">€ 5,00</p>
+</div>
+
+<div class="menu-card">
+  <h3>Verdure</h3>
+  <p>pomodoro, mozzarella, zucchine, melanzane, peperoni</p>
+  <p class="allergens">Allergeni: 7, 1</p>
+  <p class="price">€ 5,00</p>
+</div>
+
+<div class="menu-card">
+  <h3>Wurstel</h3>
+  <p>pomodoro, mozzarella, wurstel</p>
+  <p class="allergens">Allergeni: 7, 1</p>
+  <p class="price">€ 5,00</p>
+</div>
+
+<div class="menu-card">
+  <h3>Zucchine e Zola</h3>
+  <p>pomodoro, mozzarella, zucchine, zola</p>
+  <p class="allergens">Allergeni: 7, 1</p>
+  <p class="price">€ 5,00</p>
+</div>
+
+    </section>
+  <footer>
+    <p>© 2025 Pizzeria IL Migliore</p>
+  </footer>
+
+<p class="note"> Nota: tutti gli impasti sono realizzati con farina di grano tenero tipo 00.</p>
+  </main>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
